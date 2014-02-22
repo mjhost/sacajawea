@@ -8,7 +8,7 @@ import org.junit.Test;
 public class JaneyTest {
 
 	@Test
-	public void test() {
+	public void janeyHasAnExploreMethod() {
 		String metadata = "metadata.xml";
 		String infrastructure = "infrastructure.xml";
 		Janey.explore(infrastructure, metadata);

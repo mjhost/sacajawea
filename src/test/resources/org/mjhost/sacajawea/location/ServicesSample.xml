@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Services>
+	<service>
+		<name>ci</name>
+		<description>Continuous Integration</description>
+	</service>
+	<service>
+		<name>search</name>
+		<description>Free Text Search</description>
+		<service>
+			<name>google</name>
+			<description>web search</description>
+			<service>
+				<name>google-images</name>
+				<description>images web search</description>
+			</service>
+		</service>
+	</service>
+</Services>
