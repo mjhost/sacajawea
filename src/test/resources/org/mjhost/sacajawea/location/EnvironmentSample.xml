@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Environments>
+	<environment>
+		<name>it</name>
+		<description>for all services served in italian language</description>
+	</environment>
+	<environment>
+		<name>en</name>
+		<description>for all services served in english language</description>
+	</environment>
+</Environments>

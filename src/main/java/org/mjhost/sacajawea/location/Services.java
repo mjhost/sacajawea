@@ -80,7 +80,7 @@ public class Services {
 
 	static class Service{
 		private String name;
-		private String description;
+		private String description = "";
 		private Service parent;
 		
 		public Service(String name) {

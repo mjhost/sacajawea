@@ -16,4 +16,7 @@
 			</service>
 		</service>
 	</service>
+	<service>
+		<name>git</name>
+	</service>
 </Services>

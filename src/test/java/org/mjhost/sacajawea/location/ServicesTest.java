@@ -68,5 +68,13 @@ public class ServicesTest {
 		assertThat(Services.ANY.getParent(), equalTo(Services.ANY));
 	}
 	
+	@Test
+	public void aServiceMayHaveDescription() throws Exception {
+		Service googleImages = services.get("google-images");
+		assertThat(googleImages.getDescription(), equalTo("images web search"));
+		Service git = services.get("git");
+		assertThat(git.getDescription(), equalTo(""));
+	}
+	
 	
 }
