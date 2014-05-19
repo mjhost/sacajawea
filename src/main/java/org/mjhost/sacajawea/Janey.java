@@ -20,7 +20,7 @@ public class Janey {
 	 * @param metadata
 	 */
 	static void explore(String infrastructure, String metadata) {
-		// TODO Auto-generated method stub
+		
 	}
 
 }

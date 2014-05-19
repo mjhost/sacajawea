@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.mjhost.sacajawea.exceptions.InitializationException;
-import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
@@ -18,7 +17,7 @@ public class Services {
 	
 	Map<String, Service> available;
 	
-	public void initialize(Document metadata){
+	public void initialize(Node metadata){
 		if(available == null){
 			if(metadata != null){
 				available = new HashMap<String, Service>();
@@ -31,7 +30,7 @@ public class Services {
 		}
 	}
 	
-	void readAllServices(Document metadata) {
+	void readAllServices(Node metadata) {
 		NodeList allElements = metadata.getChildNodes();
 		int elementLength = allElements.getLength();
 		for (int i = 0; i < elementLength; i++){

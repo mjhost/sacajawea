@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<Environments>
+		<environment>
+			<name>it</name>
+			<description>for all services served in italian language</description>
+		</environment>
+		<environment>
+			<name>en</name>
+			<description>for all services served in english language</description>
+		</environment>
+	</Environments>
+	<Services>
+		<service>
+			<name>ci</name>
+			<description>Continuous Integration</description>
+		</service>
+		<service>
+			<name>search</name>
+			<description>Free Text Search</description>
+			<service>
+				<name>google</name>
+				<description>web search</description>
+				<service>
+					<name>google-images</name>
+					<description>images web search</description>
+				</service>
+			</service>
+		</service>
+		<service>
+			<name>git</name>
+		</service>
+	</Services>
+</Config>
